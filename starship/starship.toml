@@ -40,8 +40,8 @@ truncation_length = 4
 [username]
 disabled = false
 show_always = true
-style_user = "bg:surface0 fg:teal"
-style_root = "bg:surface0 fg:text"
+style_user = "fg:teal"
+style_root = "fg:text"
 format = " [$user]($style) "
 
 [line_break] 
