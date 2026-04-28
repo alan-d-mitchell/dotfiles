@@ -4,7 +4,8 @@ vim.api.nvim_create_autocmd("BufNewFile", {
         local filename = vim.fn.expand("%:t:r")
         local template = {
             "public class " .. filename .. " {",
-            "\tpublic static void main(String[] args) {",
+            " ",
+            "\tstatic void main() {",
             " ",
             "\t}",
             "}"

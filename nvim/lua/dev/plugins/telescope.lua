@@ -26,8 +26,8 @@ return {
         telescope.load_extension("fzf")
 
         local keymap = vim.keymap
-        keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- open telescope
-        keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>") -- find recent files
+        keymap.set("n", "<leader>fo", "<cmd>Telescope find_files<cr>") -- open telescope
+        keymap.set("n", "<leader>ff", "<cmd>Telescope oldfiles<cr>") -- find recent files
         keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in cwd
         keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in cwd
 
