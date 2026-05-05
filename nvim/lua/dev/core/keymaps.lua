@@ -7,6 +7,7 @@ keymap.set("n", "<leader>u", ":w<CR>") -- write, basically to update buffer
 keymap.set("n", "<leader>fq", ":q!<CR>") -- force quit no write
 keymap.set("n", "<leader>wq", ":wq<CR>") -- write quit
 keymap.set("n", "<leader>fb", "gg+=G") -- format tab and indenting
+keymap.set("n", "<leader>mu", "V:move -2<CR>gv") -- swap current line with one above it
 
 -- split windows
 keymap.set("n", "<leader>sw", "<C-w>v") -- split window
