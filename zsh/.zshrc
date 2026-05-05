@@ -70,6 +70,7 @@ alias bat="batcat"
 alias python3=/usr/bin/python3.12
 alias zsync="sync_zsh"
 alias ll="lsd -l"
+alias tmx="tmux new -A -s dev"
 
 # Easier paths
 alias home="cd $HOME"
