@@ -157,7 +157,7 @@ return {
             local colorschemes = {
                 vesper = "vesper",
                 kanagawa = "kanagawa-paper",
-                rosepine = "rose-pine-moon",
+                rosepine = "rose-pine",
                 vague = "vague",
                 gruvbox = "gruvbox",
                 github = "github_dark_tritanopia",
