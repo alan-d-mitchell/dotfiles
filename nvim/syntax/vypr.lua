@@ -17,7 +17,7 @@ vim.cmd([[syntax region vypr_comment start=+#+ end=+$+ oneline]])
 -- ── Keywords ─────────────────────────────────────────────────────────────────
 
 syn_keyword("vypr_keyword", {
-    "def", "return", "pass", "in",
+    "def", "return", "pass", "in", "import",
 })
 
 syn_keyword("vypr_conditional", {

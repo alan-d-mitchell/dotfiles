@@ -23,7 +23,9 @@ vim.cmd([[syntax region hydra_comment start=+//+ end=+$+ oneline]])
 vim.cmd([[syntax region hydra_block_comment start=+/\*+ end=+\*/+]])
 
 syn_keyword("hydra_keyword", {
-    "let", "const", "fn", "struct", "extension", "return", "include", "extern", "pub"
+    "let", "const", "fn", "struct", "extension",
+    "trait", "return", "include", "extern", "pub",
+    "loop", "mut"
 })
 
 syn_keyword("hydra_conditional", {
@@ -35,7 +37,7 @@ syn_keyword("hydra_repeat", {
 })
 
 syn_keyword("hydra_statement", {
-    "break", "continue", "in", "on", "as"
+    "break", "continue", "in", "on", "as", "where"
 })
 
 syn_keyword("hydra_type", {
@@ -46,7 +48,7 @@ syn_keyword("hydra_type", {
 })
 
 syn_keyword("hydra_special", {
-    "anysize", "self"
+    "anysize", "self", "call", "builtin"
 })
 
 syn_keyword("hydra_boolean", {
